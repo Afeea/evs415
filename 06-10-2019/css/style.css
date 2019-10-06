@@ -1,0 +1,21 @@
+span.design-1{
+    color: red;
+    margin-left: 40px;
+}
+
+div.design-1{
+    color: black;
+    margin-top: 40px;
+}
+
+
+.design-1{
+    color: green;
+    text-align: center;
+}
+
+.design-2{
+    font-size: 51px;
+    border-width: 1px;
+    border-style: dashed;
+}

@@ -16,6 +16,8 @@ div.design-1{
 
 .design-2{
     font-size: 51px;
-    border-width: 1px;
+    border-width: 7px;
     border-style: dashed;
+    margin-left: 20px;
+    padding-left: 92px;
 }

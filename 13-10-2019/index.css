@@ -1,0 +1,48 @@
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    background: aquamarine;
+}
+header{
+    background: blue;
+}
+
+/* header > div:first-child > nav:last-child{
+    background: orchid;
+} */
+
+/* header > div:first-child > nav:nth-child(2){
+    background: orchid;
+} */
+header > div:first-child > nav:first-child{
+    position: relative;
+    width: 800px;
+    float: left;
+}
+header > div:first-child > nav:first-child > ul > li{
+    float : left;
+    margin: 0px 20px;
+    padding: 10px;
+}
+header > div:first-child > nav:first-child > ul > li > ul{
+display: none;
+}
+
+header > div:first-child > nav:first-child > ul > li:hover{
+    color: peru;
+    cursor: pointer;
+    border: 1px solid red;
+    border-radius: 50px;
+}
+ header > div:first-child > nav:first-child > ul > li:hover > ul{
+    display: block;
+} 
+h1:hover{
+    color: royalblue;
+}

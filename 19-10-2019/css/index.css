@@ -1,0 +1,40 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background: bisque;
+    margin: 0 auto;
+    position: relative;
+}
+
+.box, .box1{
+    background: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.box1{
+    background: rosybrown;
+    z-index: 3;
+    height: 200px;
+    width: 200px;
+}
+
+
+ul li{
+    list-style: none;
+    float: left;
+    margin: 13px 16px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+/* ul li:nth-child(2n + 2){
+    color: red;
+} */
+
+.section ~ p{
+    color: red;
+}

@@ -1,0 +1,102 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background: red;
+    transition: border-radius 2s,height 2s;
+    border-radius: 0;
+}
+
+.box:hover{
+    height: 400px;
+    transition: border-radius 2s,height 2s;
+    border-radius: 200px;
+    background: blue;
+}
+
+h1{
+   transform: rotateY(0deg); 
+}
+h1:hover{
+    transform: rotateY(171deg); 
+    transition: transform 2s;
+}
+
+
+.box1{
+    height: 500px;
+    width: 500px;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+
+    /* animation: myAnimation 3s infinite; */
+}
+
+@keyframes myAnimation{
+    /* from{ left:0;}
+    to{left:500px;} */
+    0%{left:0;}
+    25%{left:500px;top:0px;background: blue;}
+    50%{top:300px;left:500px;background: green;}
+    75%{top:300px;left:0px;background: rebeccapurple;}
+    100%{top:0px;left:0px; background: burlywood;}
+}
+
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.overflow {
+    position: relative;
+    border: 1px solid #000;
+    height: 60px;
+    width: 150px;
+}
+.overflow ul li{
+    margin: 5px 19px;
+    position: absolute;
+    
+}
+.overflow ul li:nth-child(n + 1){
+    left:50px;
+}
+
+/* .box2{
+    background: orange;
+    li{
+        background: black;
+    }
+    
+} */
+
+/* $primary-color = red;
+.heading1{
+    color: $primary-color;
+
+}
+.heading2{
+    color: $primary-color;
+} */
+.box2{
+    background: orange;
+}
+.box2 li{
+    background: black;
+}
+.box2 li:first-child::after {
+    content: '';
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    left: 0px;
+    background: black;
+    top: 21px;
+    /* overflow: hidden; */
+}
+/* .box2 li::before{
+    content: '';
+} */
+
+
+

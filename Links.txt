@@ -1,0 +1,7 @@
+https://frontend30.com/css-selectors-cheatsheet/
+
+https://nodejs.org/en/download/
+=> After Installation 
+node -v ..... in powershell
+npm install -g sass
+sass --watch scss:css

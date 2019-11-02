@@ -4,4 +4,7 @@ https://nodejs.org/en/download/
 => After Installation 
 node -v ..... in powershell
 npm install -g sass
-sass --watch scss:css
+sass --watch --no-source-map scss:css
+
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries

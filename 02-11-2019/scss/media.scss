@@ -1,0 +1,20 @@
+@import "variables";
+
+.heading{
+    color: red;
+}
+
+
+@media screen and (max-width: $mobile-width){
+    .heading{
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+@media screen and (orientation: landscape){
+    .heading{
+        color: black;
+    }
+}
+

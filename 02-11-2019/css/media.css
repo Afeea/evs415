@@ -1,0 +1,15 @@
+.heading {
+  color: red;
+}
+
+@media screen and (max-width: 450px) {
+  .heading {
+    text-align: center;
+    font-size: 18px;
+  }
+}
+@media screen and (orientation: landscape) {
+  .heading {
+    color: black;
+  }
+}

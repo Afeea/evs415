@@ -1,0 +1,74 @@
+.container {
+  max-width: 985px;
+  width: 100%;
+  background: red;
+  margin: 0 auto;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+header .header-top {
+  height: 189px;
+  width: 100%;
+  background-image: url("../images/header-top-bg.png");
+}
+header .header-top .left-section {
+  width: 282px;
+  height: 189px;
+}
+header .header-top .left-section.logo img {
+  margin-top: 24px;
+  margin-left: 28px;
+}
+header .header-top .right-section {
+  width: 703px;
+  height: 189px;
+  background: greenyellow;
+}
+header .header-top .right-section .shoping-cart {
+  height: 84px;
+  width: 392px;
+  background: red;
+}
+header .header-top .right-section .shoping-cart .top {
+  height: 50px;
+  width: 100%;
+  color: yellow;
+}
+header .header-top .right-section .shoping-cart .bottom {
+  height: 34px;
+  width: 100%;
+}
+header .header-nav {
+  height: 45px;
+  width: 100%;
+  background: #e03639;
+}
+
+section.middle {
+  height: 1215px;
+  width: 100%;
+  background: hotpink;
+}
+section.middle aside {
+  height: 1215px;
+  width: 233px;
+  background: indianred;
+}
+section.middle main {
+  height: 1215px;
+  width: 752px;
+  background: lawngreen;
+}
+
+footer {
+  height: 251px;
+  width: 100%;
+  background: seagreen;
+}

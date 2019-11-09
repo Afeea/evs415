@@ -1,0 +1,52 @@
+.container {
+  max-width: 985px;
+  width: 100%;
+//   background: red;
+  margin: 0 auto;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+header {
+  .header-top {
+    height: 189px;
+    width: 100%;
+    background: blue;
+    .check{
+        background-color: sienna;
+        height: 50px;
+        width: 100%;
+    }
+  }
+  .header-nav {
+    height: 45px;
+    width: 100%;
+    background: #e03639;
+  }
+}
+section {
+  &.middle {
+    height: 1215px;
+    width: 100%;
+    background: hotpink;
+    aside {
+      height: 1215px;
+      width: 233px;
+      background: indianred;
+    }
+    main {
+      height: 1215px;
+      width: 752px;
+      background: lawngreen;
+    }
+  }
+}
+footer{
+    height: 251px;
+    width: 100%;
+    background: seagreen;
+}

@@ -1,0 +1,263 @@
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 985px;
+  width: 100%;
+  background: red;
+  margin: 0 auto;
+}
+
+ul.card1 {
+  height: 484px;
+  width: 100%;
+  background: #fff;
+}
+ul.card1 li {
+  width: 240px;
+  margin-right: 15px;
+}
+ul.card1 li:last-child {
+  margin-right: 0;
+}
+ul.card1 li .image-section {
+  position: relative;
+}
+ul.card1 li .image-section img {
+  border: 1px solid #d2d1d1;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+ul.card1 li .image-section .info {
+  position: absolute;
+  top: 12px;
+  left: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 12px;
+  border: 1px solid #ffff;
+}
+ul.card1 li .image-section .info.promotion {
+  background: #7b7b7b;
+}
+ul.card1 li .image-section .info.sale {
+  background: #facc83;
+}
+ul.card1 li .image-section .info.new {
+  background: #8a0114;
+}
+ul.card1 li .content .text {
+  display: inline-block;
+  padding: 0 7px;
+  text-align: left;
+}
+ul.card1 li .content .branding {
+  color: #8a0115;
+  font-size: 12px;
+}
+ul.card1 li .content .price {
+  display: block;
+  color: #890013;
+  font-size: 24px;
+}
+ul.card1 li .content .buttons a {
+  padding: 6px 31px;
+  border-radius: 4px;
+  display: inline-block;
+}
+ul.card1 li .content .buttons .detail {
+  background: #d5d5d5;
+  color: #fff;
+}
+ul.card1 li .content .buttons .add-to-cart {
+  background: #890013;
+  color: #fff;
+}
+ul.card2 li {
+  width: 221px;
+}
+ul.card2 li .image-section {
+  position: relative;
+  width: 93px;
+  height: 118px;
+}
+ul.card2 li .image-section img {
+  width: 100%;
+}
+ul.card2 li .image-section .info {
+  display: none;
+}
+ul.card2 li .content {
+  width: calc(100% - 93px);
+}
+ul.card2 li .content .text {
+  display: inline-block;
+  padding: 0 7px;
+  text-align: left;
+}
+ul.card2 li .content .branding {
+  color: #8a0115;
+  font-size: 12px;
+}
+ul.card2 li .content .price {
+  display: block;
+  color: #890013;
+  font-size: 24px;
+}
+ul.card2 li .content .buttons a {
+  padding: 6px 31px;
+  border-radius: 4px;
+  display: inline-block;
+}
+ul.card2 li .content .buttons .detail {
+  background: #d5d5d5;
+  color: #fff;
+}
+ul.card2 li .content .buttons .add-to-cart {
+  background: #890013;
+  color: #fff;
+}
+
+nav.design-1 ul {
+  float: left;
+}
+nav.design-1 ul li {
+  margin-right: 16px;
+  color: #fff;
+  padding: 13px 0px;
+}
+nav.design-1 ul li.active {
+  font-weight: bold;
+}
+nav.design-1 ul li:before {
+  content: "";
+  height: 12px;
+  width: 12px;
+  float: left;
+  background-image: url("../images/icons/nav-d1.png");
+  background-repeat: no-repeat;
+  position: relative;
+  top: 3px;
+  right: 3px;
+}
+nav.design-1 ul.icon2 li:before {
+  background-image: url("../images/icons/nav-d2.png");
+}
+
+.button-design1 {
+  position: relative;
+  max-width: 194px;
+  width: 100%;
+}
+.button-design1 .button {
+  width: 194px;
+  background: green;
+  height: 50px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.button-design1 .down-arrow {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background: red;
+  transform: rotate(45deg);
+  bottom: -6px;
+  z-index: 1;
+  left: 50%;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+header .header-top {
+  height: 189px;
+  width: 100%;
+  background-image: url("../images/header-top-bg.png");
+}
+header .header-top .left-section {
+  width: 282px;
+  height: 189px;
+}
+header .header-top .left-section.logo img {
+  margin-top: 24px;
+  margin-left: 28px;
+}
+header .header-top .right-section {
+  width: 703px;
+  height: 189px;
+  background: greenyellow;
+}
+header .header-top .right-section .shoping-cart {
+  height: 84px;
+  width: 391px;
+  background: darkseagreen;
+}
+header .header-top .right-section .shoping-cart .top {
+  height: 50px;
+  width: 100%;
+  color: yellow;
+}
+header .header-top .right-section .shoping-cart .top .login-sec ul {
+  overflow: hidden;
+  border: 1px solid #cdcdcd;
+}
+header .header-top .right-section .shoping-cart .top .login-sec ul li {
+  border-right: 1px solid #000;
+}
+header .header-top .right-section .shoping-cart .top .login-sec ul li:last-child {
+  border-right: none;
+}
+header .header-top .right-section .shoping-cart .bottom {
+  height: 34px;
+  width: 100%;
+}
+header .header-top .right-section .child-img {
+  position: relative;
+  bottom: -4px;
+  right: 14px;
+}
+header .header-nav {
+  height: 45px;
+  width: 100%;
+  background: #e03639;
+}
+header .header-nav nav ul li.active {
+  color: black;
+}
+
+section.middle {
+  height: 1215px;
+  width: 100%;
+  background: hotpink;
+}
+section.middle aside {
+  height: 1215px;
+  width: 233px;
+  background: indianred;
+}
+section.middle main {
+  height: 1215px;
+  width: 752px;
+  background: lawngreen;
+}
+
+footer {
+  height: 251px;
+  width: 100%;
+  background: seagreen;
+}

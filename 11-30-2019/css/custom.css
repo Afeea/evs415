@@ -1,0 +1,15 @@
+/* @media (min-width: 1200px){
+    .container {
+        max-width: 985px;
+    }
+} */
+header{
+    background-image: url("../images/header-top-bg.png");
+    color:#fff;
+}
+
+.alert-success {
+    color: #fff;
+    background: none;
+    /* border-color: #c3e6cb; */
+}
